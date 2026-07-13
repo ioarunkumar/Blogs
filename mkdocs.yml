@@ -1,0 +1,174 @@
+site_name: Arun Kumar
+site_description: Software Engineer • Full-Stack Developer • AI Enthusiast
+site_author: Arun Kumar
+site_url: https://ioarunkumar.in
+
+repo_name: ioarunkumar
+repo_url: https://github.com/ioarunkumar
+edit_uri: edit/main/docs/
+
+copyright: |
+  © 2026 Arun Kumar • Built with Material for MkDocs
+
+theme:
+  name: material
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/lightbulb-outline
+        name: Light Mode
+
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/lightbulb
+        name: Dark Mode
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+
+    - toc.follow
+
+    - search.highlight
+    - search.suggest
+
+    - content.code.copy
+    - content.code.annotate
+
+features:
+
+    # Navigation
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    # TOC
+    - toc.follow
+    - toc.integrate
+
+    # Search
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - content.tabs.link
+
+    # Header
+    - header.autohide
+
+    # Edit/View
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - search
+  - blog
+  - tags
+
+markdown_extensions:
+
+  - admonition
+
+  - attr_list
+
+  - md_in_html
+
+  - tables
+
+  - footnotes
+
+  - abbr
+
+  - def_list
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.snippets
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ioarunkumar
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/YOUR_USERNAME
+
+    - icon: fontawesome/solid/globe
+      link: https://ioarunkumar.in
+
+    - icon: fontawesome/solid/envelope
+      link: mailto:arunkumar738807@gmail.com
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+nav:
+  - Home: index.md
+
+  - About: blog/about.md
+
+  - Projects:
+      - projects/index.md
+      - AI LaTeX Repair Engine: projects/latex.md
+      - Match Analyzer: projects/chess.md
+
+  - Blog:
+      - blog/index.md
+
+  - Notes:
+      - notes/index.md
+
+  - Resume:
+      - resume.md
+
+  - Contact:
+      - contact.md

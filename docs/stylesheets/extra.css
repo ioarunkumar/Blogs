@@ -1,0 +1,165 @@
+:root {
+    --md-primary-fg-color: #2563eb;
+    --md-primary-fg-color--light: #60a5fa;
+    --md-primary-fg-color--dark: #1d4ed8;
+
+    --md-accent-fg-color: #f97316;
+
+    --md-default-bg-color: #ffffff;
+    --md-default-fg-color: #0f172a;
+    --md-default-fg-color--light: #475569;
+
+    --md-typeset-a-color: #2563eb;
+    --md-code-bg-color: #f8fafc;
+    --md-card-bg-color: #f8fafc;
+    --md-button-bg-color: #2563eb;
+    --md-button-fg-color: #ffffff;
+    --md-search-bg-color: #f1f5f9;
+    --md-border-color: rgba(37,99,235,0.12);
+}
+
+html[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #22d3ee;
+    --md-primary-fg-color--light: #4be4ff;
+    --md-primary-fg-color--dark: #0ea5c6;
+
+    --md-accent-fg-color: #f59e0b;
+
+    --md-default-bg-color: #080c16;
+    --md-default-fg-color: #e2e8f0;
+    --md-default-fg-color--light: #cbd5e1;
+
+    --md-typeset-a-color: #22d3ee;
+    --md-code-bg-color: #0f172a;
+    --md-card-bg-color: #0b1120;
+    --md-button-bg-color: #22d3ee;
+    --md-button-fg-color: #000000;
+    --md-search-bg-color: #101827;
+    --md-border-color: rgba(34,211,238,0.15);
+}
+
+/* Background */
+
+.md-main,
+.md-content,
+.md-sidebar,
+.md-header,
+.md-tabs {
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+}
+
+/* Header */
+
+.md-header {
+    border-bottom: 1px solid rgba(148,163,184,0.12);
+    backdrop-filter: blur(16px);
+}
+
+/* Navigation */
+
+.md-tabs {
+    border-bottom: 1px solid rgba(148,163,184,0.08);
+}
+
+/* Sidebar */
+
+.md-nav__title {
+    color: var(--md-primary-fg-color);
+    font-weight: 700;
+}
+
+.md-nav__link--active {
+    color: var(--md-primary-fg-color);
+}
+
+.md-nav__link:hover {
+    color: var(--md-primary-fg-color);
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+}
+
+/* Body */
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+/* Cards */
+
+.md-typeset .admonition,
+.md-typeset details {
+    background: var(--md-card-bg-color);
+    border: 1px solid var(--md-border-color);
+    border-radius: 18px;
+}
+
+/* Buttons */
+
+.md-button {
+    border-radius: 14px;
+    background: var(--md-button-bg-color);
+    color: var(--md-button-fg-color);
+    border: none;
+    font-weight: 700;
+}
+
+.md-button:hover {
+    background: rgba(37,99,235,0.95);
+}
+
+/* Search */
+
+.md-search__form {
+    border-radius: 14px;
+    background: var(--md-search-bg-color);
+}
+
+/* Code */
+
+.md-typeset code {
+    color: var(--md-primary-fg-color);
+}
+
+.md-typeset pre {
+    border-radius: 16px;
+    background: var(--md-code-bg-color);
+}
+
+/* Tables */
+
+.md-typeset table:not([class]) {
+    border-radius: 14px;
+}
+
+/* TOC */
+
+.md-nav--secondary .md-nav__link--active {
+    color: var(--md-primary-fg-color);
+}
+
+/* Links */
+
+.md-typeset a {
+    color: var(--md-typeset-a-color);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(34,211,238,0.35);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(34,211,238,0.75);
+}

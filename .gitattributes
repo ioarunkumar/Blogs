@@ -1,0 +1,22 @@
+# Normalize line endings for the repository
+* text=auto
+
+# Keep CSS files with LF endings
+*.css text eol=lf
+
+# Ensure Markdown and YAML use LF endings too
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Preserve binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary

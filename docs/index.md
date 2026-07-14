@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Arun Kumar
 
 Welcome to my personal website — a place where engineering, AI, and full-stack development come together.
@@ -33,3 +34,13 @@ Whether you are a recruiter, collaborator, or fellow engineer, I hope you find t
 ## Let’s connect
 
 I share work on GitHub, LinkedIn, and my personal blog. If you have a project or idea, I’m always open to new opportunities and conversations.
+=======
+# Blog
+
+Welcome to the blog. Here you can find project updates, engineering essays, and technical notes.
+
+## Latest Posts
+
+- [AI LaTeX Repair Engine](posts/latextopdf.md)
+
+>>>>>>> cc994d38ab9d9fa4a3dcd8044ba7713d2576d32c

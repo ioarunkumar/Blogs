@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -52,3 +53,59 @@ Thumbs.db
 *.temp
 *.bak
 *.orig
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage and test output
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# MkDocs
+site/
+site/*
+
+# Node
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+>>>>>>> cc994d38ab9d9fa4a3dcd8044ba7713d2576d32c
